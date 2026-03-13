@@ -1,0 +1,61 @@
+{
+  "name": "image-loader-next",
+  "version": "0.0.0",
+  "description": "Load images in Node.js, Rollup, Vite, or Vitest the same way as Next.js",
+  "keywords": [
+    "avif",
+    "bmp",
+    "gif",
+    "ico",
+    "image",
+    "images",
+    "jpeg",
+    "jpg",
+    "next",
+    "nextjs",
+    "next-image-loader",
+    "node",
+    "nodejs",
+    "png",
+    "rollup",
+    "svg",
+    "vite",
+    "vitest",
+    "webp"
+  ],
+  "homepage": "https://github.com/remcohaszing/image-loader-next#readme",
+  "bugs": {
+    "url": "https://github.com/remcohaszing/image-loader-next/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/remcohaszing/image-loader-next.git"
+  },
+  "funding": "https://github.com/sponsors/remcohaszing",
+  "license": "MIT",
+  "author": "Remco Haszing <remcohaszing@gmail.com>",
+  "type": "module",
+  "exports": {
+    "./node": "./dist/node.js",
+    "./rollup": "./dist/rollup.js"
+  },
+  "files": [],
+  "scripts": {
+    "prepack": "tsc --build",
+    "pretest": "tsc --build",
+    "test": "vitest run && node test/node.ts"
+  },
+  "dependencies": {
+    "@types/node": "*",
+    "image-size": "^2.0.0"
+  },
+  "devDependencies": {
+    "@remcohaszing/eslint": "^13.0.0",
+    "prettier": "^3.0.0",
+    "remark-cli": "^12.0.0",
+    "remark-preset-remcohaszing": "^3.0.0",
+    "rollup": "^4.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^4.0.0"
+  }
+}

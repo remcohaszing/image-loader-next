@@ -1,0 +1,13 @@
+{
+  "exclude": ["src"],
+  "references": [{ "path": "./tsconfig.build.json" }],
+  "compilerOptions": {
+    "lib": ["es2022"],
+    "module": "nodenext",
+    "noEmit": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2022",
+    "types": ["node"]
+  }
+}
