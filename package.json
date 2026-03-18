@@ -39,7 +39,10 @@
     "./node": "./dist/node.js",
     "./rollup": "./dist/rollup.js"
   },
-  "files": [],
+  "files": [
+    "dist",
+    "src"
+  ],
   "scripts": {
     "prepack": "tsc --build",
     "pretest": "tsc --build",
