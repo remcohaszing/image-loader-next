@@ -17,9 +17,13 @@
     "node",
     "nodejs",
     "png",
+    "rolldown",
+    "rolldown-plugin",
     "rollup",
+    "rollup-plugin",
     "svg",
     "vite",
+    "vite-plugin",
     "vitest",
     "webp"
   ],
@@ -47,6 +51,21 @@
     "prepack": "tsc --build",
     "pretest": "tsc --build",
     "test": "vitest run && node test/node.ts"
+  },
+  "compatiblePackages": {
+    "schemaVersion": 1,
+    "rolldown": {
+      "type": "compatible",
+      "versions": "*"
+    },
+    "rollup": {
+      "type": "compatible",
+      "versions": ">=4.38.0"
+    },
+    "vite": {
+      "type": "compatible",
+      "versions": ">=6.3.0"
+    }
   },
   "dependencies": {
     "@types/node": "*",
