@@ -1,6 +1,6 @@
 {
   "name": "image-loader-next",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Load images in Node.js, Rollup, Vite, or Vitest the same way as Next.js",
   "keywords": [
     "avif",
